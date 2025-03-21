@@ -1,0 +1,260 @@
+*{
+margin: 0px;
+padding: 0px;
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: border-box;
+scroll-behavior: smooth;
+
+}
+
+
+#headpart{
+    width: 100%;
+    background-color:#EAEAEA;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    height: 50px;
+    /* position: fixed; */
+
+}
+#headpart img {
+border:1px transparent;
+}
+#headpart:hover img{
+border:2px solid rgb(14, 14, 14);
+}
+
+
+
+
+/* =======================MEN WOMEN MOBILE COVER START HERE========== */
+#op  ul  {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+gap: 100px;
+list-style-type: none;
+}
+#op ul li a {
+text-decoration: none;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: black;
+
+ }
+/* ============LOGIN AND LOGO PART START HERE===============================  */
+#logo{ 
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1px;
+ padding-bottom: 1px;
+ padding-inline: 50px;
+ padding-right:10px;
+gap:1px;
+
+}
+#logo a {
+gap: 10px;
+text-decoration: none;
+color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.search{
+padding-right:100px;
+padding: auto;
+}
+
+.logo2{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1px;
+
+gap: 20px;;
+
+
+
+}
+
+
+
+ /* ==================HEAD PART END HEREE ======================  */
+ /* ==================MEN WOMEN LINE START HERE================  */
+#sec1  a {
+display: inline-flex;
+justify-content: space-evenly;
+align-items: center;
+text-decoration: none;
+gap: 1;
+margin-left:80px ;
+color: black;
+font-size:17PX;
+ box-shadow: 10px 10px 15px #EAEAEA(241, 17, 17); 
+ text-shadow: 5px 5px 10px rgba(51, 227, 16, 0.604); 
+
+}
+/*======================= IMAGES 1 SECTION START HERE==================== */
+#hero-section {
+display: grid;
+grid-template-columns: repeat(5,400px);
+overflow-x: scroll;
+/* overflow: hidden; */
+/* margin-right:100px; */
+scrollbar-width: none;
+}
+
+
+.font{
+display: flex;
+justify-content: center;
+align-content: center;
+font-size:30px;
+}
+/* ======================IMAGES LATEST COLLECTION START HERE================= */
+#hero-section2{
+    display: grid;
+    grid-template-columns: repeat(9,400px);
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.font2{
+ display: flex;
+justify-content: center;
+align-content: center;
+font-size: 30px;}
+/*=================== SHOP BY CategorY-MEN IMAGE ATART HERE======================= */
+
+#hero-section3{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+grid-template-rows:auto;
+gap: 1px;
+column-gap: 100PX;
+}
+.hero{
+
+display: flex;
+justify-content: center;
+gap: 200px;
+padding-right:125px;
+}
+.font3{
+    display: flex;
+   justify-content: center;
+   align-content: center;
+   font-size: 30px;}
+ /*==================== SHOP BY Category-WOMEN START HERE========================  */
+  
+#hero-section4{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:auto;
+    gap: 1px;
+    column-gap: 300PX;
+}
+
+.hero2{
+display: flex;
+justify-content: center;
+gap: 200px;
+padding-right:12px ;
+}
+/*============================ best seller================== */
+.font4{
+    display: flex;
+   justify-content: center;
+   align-content: center;
+   font-size: 30px;}
+#bestseller{
+display: flex;
+justify-content: center;
+gap:20px ;
+background-color: #EAEAEA;
+text-decoration: line-through; 
+}
+.box{
+border:2px solid black;
+height:400px;
+width:30%;
+background-color:white;
+
+}
+.box1{
+
+
+
+}
+/* ========================footer part start here ====================== */
+footer{
+margin-top:100px;
+background-color:#141111;
+
+}
+#foot1{
+display: flex;
+padding-top:100px;
+
+}
+#foot2{
+color:white;
+display: flex;
+gap:100px;
+}
+#foot2 ul  a  {
+color:white;
+text-decoration: none;
+display: flex;
+list-style-type: none;
+gap:100px;
+}
+.p{
+color: #fdd835;
+
+}
+
+#foot2 ul p a{
+
+    color:rgb(198, 170, 170);
+    text-decoration: none;
+ 
+ gap:100px;
+}
+
+#foot2 ul {
+list-style-type: none;    
+}
+
+.p1{
+gap: 100px;
+color: #fdd835;}
+.p2{color: #fdd835;}
+
+.cos{ color: #fdd835;}
+
+.keep{color: #fdd835;}
+.aap{
+margin-top: 40px;
+color: #fdd835;
+}
+#email{
+ border: #fdd835;
+ border-width: 2px;
+ background-size: cover;   
+}
+/* ======================paragraph start here===============================  */
+.para1{
+margin-top: 50px;
+color:silver;
+font-size: large;
+}
+.para2{
+    margin-top:20px;
+    color:silver;   
+    font-size: large;
+    text-decoration: line-through; 
+}

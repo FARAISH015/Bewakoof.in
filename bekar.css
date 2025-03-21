@@ -1,0 +1,121 @@
+/* Styles for .flex-1
+.flex-1 {
+  display: block;
+  flex: 1 1 0%;
+  position: static;
+  width: 38.4px;
+  height: 38.4px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px solid rgb(229, 231, 235);
+  background-color: rgb(203, 235, 213);
+}
+
+/* Styles for .sc-fc819127-4.hIhdwZ (parent) 
+.sc-fc819127-4.hIhdwZ {
+  display: flex;
+  flex-direction: column;
+  position: static;
+  width: 40px;
+  height: 40px;
+  margin: 0px;
+  padding: 0px;
+  border: 0.8px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0);
+} */
+/* Parent element CSS */
+/* .sc-eDgayY.cHPYrP {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(54, 53, 55);
+  display: block;
+  width: 237px;
+  height: 48px;
+  padding: 0px;
+  margin: 0px;
+  border: 0px solid rgb(229, 231, 235);
+  border-radius: 0px;
+  font-size: 16px;
+  font-family: __montserrat_ddbc74, __montserrat_Fallback_ddbc74;
+  font-weight: 400;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: auto;
+  opacity: 1;
+  box-shadow: none;
+  overflow: visible;
+  transition: all;
+} */
+
+/* Button element CSS */
+/* .sc-f2340ec2-0.sc-f2340ec2-1.sc-f2340ec2-2.bSueBr.jnETsH.\!h-12.lg\:\!h-full.false.false {
+  background-color: rgb(255, 210, 50);
+  color: rgb(41, 45, 53);
+  display: flex;
+  width: 237px;
+  height: 48px;
+  padding: 12px 16px;
+  margin: 0px;
+  border: 0px none rgb(41, 45, 53);
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: __montserrat_ddbc74, __montserrat_Fallback_ddbc74;
+  font-weight: 600;
+  cursor: pointer;
+  position: static;
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  z-index: auto;
+  opacity: 1;
+  box-shadow: none;
+  overflow: visible;
+  transition: all;
+} */
+
+/* 
+.custom-button {
+  *\background-color: #4CAF50; /* Button color 
+  color: white;  
+  border: none;  
+  border-radius: 12px;  
+  padding: 12px 24px;  
+  font-size: 16px; 
+  cursor: pointer;  
+  box-shadow: 0 4px #2A773F; 
+  transition: transform 0.2s; 
+}
+
+.custom-button:hover {
+  background-color: #45a049; /
+  transform: scale(1.1); 
+}
+
+.custom-button:active {
+  background-color: #3e8e41; 
+  box-shadow: 0 2px #2A773F; 
+  transform: scale(1.05);  
+} */
+
+
+button.image-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: none;
+  background-color: #4CAF50; /* Button color */
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+button.image-button img {
+  width: 20px; /* Adjust the width of the image */
+  height: 20px; /* Adjust the height of the image */
+  margin-right: 5px; /* Add spacing between the image and the text */
+}
