@@ -55,6 +55,7 @@ margin-top:1%;
 display: flex;
 font-size: medium;
 font-weight: 10px;
+background-color: #fdd835;
 
 }
   /* =========BUTTON SECTION START========= */
@@ -110,13 +111,44 @@ box-shadow: 0 4px #fdd835;
   display: flex;
 height: 30px;;
 width: 200px;;
-margin-top: 30px;
+margin-top: 20px;
 padding: 2px;;
+background-color:#EAEAEA ;
+/* border-radius:12PX; */
+transition: transform 0.2s; 
 }
 
+#pin:hover {
+  background-color: #141111; 
+  transform: scale(1.1);
+}
+#pin:active {
+  background-color: #141111; 
+  transform: scale(1.05);
+}
 
+#ul ul {
+display: flex;
+gap: 125px;
+list-style-type: none;
+margin-top:20px;
+color: #006633;
+background-color: #EAEAEA;
+}
 
-
-
-
-
+#ul2{
+  display: flex;
+  gap: 100px;
+  list-style-type: none; 
+  margin-top:20px;
+  color: #006633;
+  background-color: #EAEAEA;
+}
+.ul3{
+  margin-top:20px;
+  display: flex;
+  gap: 100px;
+  list-style-type: none;  
+  color: #006633;
+  background-color: #EAEAEA;
+}
