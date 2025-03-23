@@ -4,7 +4,6 @@ padding: 0px;
 font-family: Arial, Helvetica, sans-serif;
 box-sizing: border-box;
 scroll-behavior: smooth;
-
 }
 
 
@@ -17,7 +16,7 @@ scroll-behavior: smooth;
     gap: 40px;
     align-items: center;
     height: 50px;
-    /* position: fixed; */
+     position: fixed; 
 
 }
 #headpart img {
@@ -37,12 +36,13 @@ justify-content: space-evenly;
 align-items: center;
 gap: 100px;
 list-style-type: none;
+
 }
 #op ul li a {
 text-decoration: none;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color: black;
-
+gap:100px;
  }
 /* ============LOGIN AND LOGO PART START HERE===============================  */
 #logo{ 
@@ -65,9 +65,31 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 .search{
 padding-right:100px;
-padding: auto;
-}
+display: flex;
+height: 30px;
+padding: 2px;
+background-color:#141111;
+transition: transform 0.2s;
+width:300px; 
+gap: 10px;
 
+}
+.search:hover {
+    background-color: #141111; 
+transform: scale(1.1);
+  }
+
+
+.search input{
+    width:500PX;
+}
+.search i {
+padding-left:100px;
+}
+.line{
+display: flex;
+margin-left: 100px;
+}
 .logo2{
 display: flex;
 justify-content: center;
@@ -95,17 +117,59 @@ color: black;
 font-size:17PX;
  box-shadow: 10px 10px 15px #EAEAEA(241, 17, 17); 
  text-shadow: 5px 5px 10px rgba(51, 227, 16, 0.604); 
-
+margin-top: 50px;
 }
 /*======================= IMAGES 1 SECTION START HERE==================== */
 #hero-section {
 display: grid;
 grid-template-columns: repeat(5,400px);
 overflow-x: scroll;
-/* overflow: hidden; */
-/* margin-right:100px; */
 scrollbar-width: none;
 }
+.img1{
+transition: transform 0.2s;  
+}
+.img1:hover{
+transform: scale(1.1);
+}
+
+.img2{
+   
+    transition: transform 0.2s;  
+    }
+    .img2:hover{
+    transform: scale(1.1);
+    }
+
+
+    .img3{
+        
+        transition: transform 0.2s;  
+        }
+        .img3:hover{
+        transform: scale(1.1);
+        }
+
+        .img4{
+            
+            transition: transform 0.2s;  
+            }
+            .img4:hover{
+            transform: scale(1.1);
+            }
+
+
+            .img5{
+                
+                transition: transform 0.2s;  
+                }
+                .img5:hover{
+                transform: scale(1.1);
+                }
+
+
+
+
 
 
 .font{
@@ -121,6 +185,77 @@ font-size:30px;
     overflow-x: scroll;
     scrollbar-width: none;
 }
+
+.hero1{
+                
+    transition: transform 0.2s;  
+    }
+    .hero1:hover{
+    transform: scale(1.1);
+    }
+
+
+
+    .hero2{
+
+        transition: transform 0.2s;  
+        }
+      .hero2:hover{
+      transform: scale(1.1);
+      }
+      .hero3{
+                
+       transition: transform 0.2s;  
+    }
+    .hero3:hover{
+     transform: scale(1.1);
+    }
+    .hero4{
+        transition: transform 0.2s;  
+                }
+                .hero4:hover{
+                transform: scale(1.1);
+                }
+                .hero5{
+                
+                    transition: transform 0.2s;  
+                    }
+                    .hero5:hover{
+                    transform: scale(1.1);
+                    }
+                    .hero6{
+                
+                        transition: transform 0.2s;  
+                        }
+                        .hero6:hover{
+                        transform: scale(1.1);
+                        }
+                        .hero7{
+                
+                            transition: transform 0.2s;  
+                            }
+                            .hero7:hover{
+                            transform: scale(1.1);
+                            }
+                            .hero8{
+                
+                                transition: transform 0.2s;  
+                                }
+                                .hero8:hover{
+                                transform: scale(1.1);
+                                }
+                                .hero9{
+                
+                                    transition: transform 0.2s;  
+                                    }
+                                    .hero9:hover{
+                                    transform: scale(1.1);
+                                    }
+                                                          
+
+
+
+
 
 .font2{
  display: flex;
@@ -175,8 +310,26 @@ display: flex;
 justify-content: center;
 gap:20px ;
 background-color: #EAEAEA;
+
+}
+.digit1{
 text-decoration: line-through; 
 }
+
+.digit2{
+text-decoration: line-through;
+}
+
+.digit3{
+    text-decoration: line-through; 
+}
+
+.digit4{
+    text-decoration: line-through; 
+}
+
+
+
 .box{
 border:2px solid black;
 height:400px;
@@ -256,5 +409,50 @@ font-size: large;
     margin-top:20px;
     color:silver;   
     font-size: large;
-    text-decoration: line-through; 
+   
 }
+ /* ===========RISPONSIVE START HERE==========  */
+
+
+ @media(max-width:430px){
+
+#headpart{
+    display:none;
+}
+
+#check:checked~#headpart{
+    display: block;
+}
+
+#op ul{
+display: none;
+
+}
+#logo{
+display: none; 
+}
+#logo a{
+    display: none; 
+}
+.search{
+    display: none; 
+
+}
+.logo2{
+    display: none; 
+}
+
+
+
+#hero-section3{
+
+    grid-template-columns:repeat(1,1fr);
+
+}
+
+
+
+
+
+
+ }

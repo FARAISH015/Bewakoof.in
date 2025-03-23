@@ -23,26 +23,29 @@ display: inline;
 position: absolute;
 left: 5%;
 top: 10%;
-/* justify-content: left;  */
-
 
 }
 
-/* .container1 {
-  display: flex;
-  justify-content: right;
-  align-items: center;
-} */
+#img img{
+column-gap:100px;
+}
 
+
+/* ===========TEXT SECTION START HERE ==========*/
 #textcontainer2 {
   width: 60%;
   margin-top: 5%;
   margin-left:3%;
+  font-family:"Gidole", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+   
+
+  }
   
-}
+
 .star {
 display: flex;
-/* justify-content: left;  */
 margin-left:50%;
 gap: 2%;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -55,7 +58,13 @@ margin-top:1%;
 display: flex;
 font-size: medium;
 font-weight: 10px;
-background-color: #fdd835;
+ font-size: 17px;
+font-weight: bold;
+color: transparent;
+background: linear-gradient(45deg, #1C6C9E, #1c6c9ec6);
+ -webkit-background-clip: text; 
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+animation: colorChange 3s linear infinite;
 
 }
   /* =========BUTTON SECTION START========= */
@@ -106,26 +115,38 @@ box-shadow: 0 4px #fdd835;
     background-color: #fdd835; 
     transform: scale(1.05);
   }
-/* ============DELIVERY SECTION START HERE =========*/
+/* ============ PIN SECTION START HERE =========*/
 #pin{
   display: flex;
-height: 30px;;
-width: 200px;;
+height: 30px;
+
 margin-top: 20px;
-padding: 2px;;
+padding: 2px;
 background-color:#EAEAEA ;
-/* border-radius:12PX; */
-transition: transform 0.2s; 
+ /* border-radius:12PX;  */
+transition: transform 0.2s;
+margin-top: 5%;  
+width:300px; 
+
+gap: 10px;
 }
 
 #pin:hover {
   background-color: #141111; 
   transform: scale(1.1);
 }
-#pin:active {
-  background-color: #141111; 
-  transform: scale(1.05);
+
+#pin input{
+  width:300PX;
+ 
 }
+
+.key{
+margin-top: 5%;
+}
+
+
+/* ===========UNORDER LIST START HERE ===========*/
 
 #ul ul {
 display: flex;
@@ -133,22 +154,57 @@ gap: 125px;
 list-style-type: none;
 margin-top:20px;
 color: #006633;
-background-color: #EAEAEA;
+transition: transform 0.2s;
+/* background-color: #EAEAEA; */
+
+}
+#op:hover{
+  background-color:rgba(23, 224, 100, 0.603) ;
+  transform: scale(1.1);
+}
+/* #ul:hover:active{
+  background-color: #fdd835; 
+  transform: scale(1.05);
+} */
+
+#op{
+color:black ;
+box-shadow:2px 2px 5px #141111;
 }
 
+#neck{
+  color:black ;
+  box-shadow:2px 2px 5px #141111;
+}
+#neck:hover{
+  background-color:rgba(23, 224, 100, 0.603) ;
+  transform: scale(1.1);
+}
 #ul2{
   display: flex;
   gap: 100px;
   list-style-type: none; 
   margin-top:20px;
-  color: #006633;
-  background-color: #EAEAEA;
+  /* color: #006633; */
+  /* background-color: #EAEAEA; */
 }
-.ul3{
-  margin-top:20px;
-  display: flex;
-  gap: 100px;
-  list-style-type: none;  
-  color: #006633;
-  background-color: #EAEAEA;
+#fit{
+  color:black ;
+  box-shadow:2px 2px 5px #141111;
 }
+#fit:hover{
+  background-color:rgba(23, 224, 100, 0.603) ;
+  transform: scale(1.1);
+}
+
+#cotton {
+  color:black ;
+  box-shadow:2px 2px 5px #141111;
+}
+
+
+#cotton:hover{
+  background-color:rgba(23, 224, 100, 0.603) ;
+  transform: scale(1.1);
+}
+
