@@ -1,9 +1,11 @@
 *{
 margin: 0px;
 padding: 0px;
-font-family: Arial, Helvetica, sans-serif;
 box-sizing: border-box;
 scroll-behavior: smooth;
+font-family: "Gidole", sans-serif;
+font-weight: 400;
+font-style: normal;
 
 }
 
@@ -14,7 +16,7 @@ scroll-behavior: smooth;
 
 #headpart{
     width: 100%;
-    background-color:#EAEAEA;
+
     display: flex;
     justify-content: center;
     display: flex;
@@ -126,16 +128,24 @@ font-size:17PX;
  box-shadow: 10px 10px 15px #EAEAEA(241, 17, 17); 
  text-shadow: 5px 5px 10px rgba(51, 227, 16, 0.604); 
 margin-top: 50px;
-overflow: hidden; 
+
 }
 /*======================= IMAGES 1 SECTION START HERE==================== */
 #hero-section {
-display: grid;
+display:grid;
 grid-template-columns: repeat(5,400px);
 overflow-x: scroll;
 scrollbar-width: none;
-overflow: hidden; 
+
 }
+#hero-section img{
+
+
+
+
+
+    }
+
 .img1{
 transition: transform 0.2s;  
 }
@@ -187,6 +197,7 @@ display: flex;
 justify-content: center;
 align-content: center;
 font-size:30px;
+margin-top:10px;
 }
 /* ======================IMAGES LATEST COLLECTION START HERE================= */
 #hero-section2{
@@ -194,19 +205,16 @@ font-size:30px;
     grid-template-columns: repeat(9,400px);
     overflow-x: scroll;
     scrollbar-width: none;
-    overflow: hidden; 
+  
 }
 
 
-.hero1{
-                
+.hero1{     
     transition: transform 0.2s;  
     }
     .hero1:hover{
     transform: scale(1.1);
     }
-
-
 
     .hero2{
 
@@ -277,73 +285,102 @@ font-size: 30px;}
 /*=================== SHOP BY CategorY-MEN IMAGE SATART HERE======================= */
 
 #hero-section3{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-grid-template-rows:auto;
+display:flex;
 gap: 1px;
 column-gap: 100PX;
 transition: 0.4s ease-out;
 overflow: hidden; 
 flex-wrap: wrap;
+
 }
 
 #hero-section3 img{
 width:300px;
 height:300px;
+border-radius: 50px;
 }
+
+
+/* #hero-section{
+transform: translateY(20px)
+} */
+
 .hero img{
 height: 300px;
 width: 300px;
+border-radius: 50px;
 }
-
-#hero-section{
-transform: translateY(20px)
-}
-
-
-
 
 
 .hero{
-
 display: flex;
 justify-content: center;
+
 gap: 200px;
 padding-right:125px;
 }
+
+ /*==================== SHOP BY Category-WOMEN START HERE========================  */
 .font3{
     display: flex;
    justify-content: center;
    align-content: center;
    font-size: 30px;}
- /*==================== SHOP BY Category-WOMEN START HERE========================  */
   
-#hero-section4{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    grid-template-rows:auto;
-    gap: 1px;
-    column-gap: 300PX;
-    overflow: hidden; 
+.main-hero{
+
+background-image: radial-gradient( #F7CAC9,#6667AB ,white);
+
+
+
 }
 
-.hero2{
+
+#hero-section4{
+    /* background-image: radial-gradient( white,#6667AB,#6667AB ); */
+    display:flex;
+    gap: 1px;
+    column-gap: 100PX;
+    overflow: hidden; 
+    flex-wrap: wrap;
+}
+#hero-section4 img{
+    width:300px;
+    height:300px;
+    border-radius: 50px;
+    }
+
+#hero2{
 display: flex;
 justify-content: center;
 gap: 200px;
 padding-right:12px ;
+/* background-image: radial-gradient( white,#6667AB,#6667AB ); */
+} 
+#hero2 img{
+    width:300px;
+    height:300px;
+    border-radius: 50px;  
+   
 }
+
+
+
 /*============================ best seller================== */
 .font4{
     display: flex;
    justify-content: center;
+   
    align-content: center;
    font-size: 30px;}
 #bestseller{
 display: flex;
 justify-content: center;
 gap:20px ;
-background-color: #EAEAEA;
+background-image: radial-gradient( #b2b2b26f,white,#6667AB );
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 400;
+font-style: normal;
 overflow: hidden; 
 
 }
@@ -370,13 +407,49 @@ border:2px solid black;
 height:400px;
 width:30%;
 background-color:white;
-
+/* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 400; */
+font-style: normal;
 }
+
 .box1{
+        
+    transition: transform 0.2s;  
+    }
+    .box1:hover{
+    transform: scale(1.1);
+    }
+
+    .box2{
+        
+        transition: transform 0.2s;  
+        }
+        .box2:hover{
+        transform: scale(1.1);
+        }
+        .box3{
+        
+            transition: transform 0.2s;  
+            }
+            .box3:hover{
+            transform: scale(1.1);
+            }
+        
+            .box4{
+        
+                transition: transform 0.2s;  
+                }
+                .box4:hover{
+                transform: scale(1.1);
+                }
+            
 
 
 
-}
+
+
+
+
 /* ========================footer part start here ====================== */
 footer{
 margin-top:100px;
@@ -553,5 +626,12 @@ row-gap: 100px;
 #hero-section img{
 margin-top: 100px;
 }
+
+#hero-section .img1{
+display: grid;
+}
+
+
+
 
  }
