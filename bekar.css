@@ -206,25 +206,25 @@ transform: scale (1.1);
   transform: scale(1.1);
 } */
  
-#image2{
+/* #image2{
   width: 100px;
   height: 100px;
-  background-color: blue;
+  background-color: blue; */
   /* position: relative; */
   /* transition: transform 0.4s ease, background-color 0.5s ease; */
 
     /* transition: transform 0.3s ease-in-out, background-color 0.5s ease; */
-  transition: 0.4s ease-out;
+  /* transition: 0.4s ease-out;
   
-}
+} */
 
-#image2:hover {
+/* #image2:hover { */
   /* transform: scale(1.5) rotate(20deg); */
   
     /* transform: rotate(1deg) scale(1.2) translate(10px, 50px);
   
   background-color: red;*/
-transform: translateY(20px);
+/* transform: translateY(20px);
 }
 #image:hover:before{
 opacity: 1;
@@ -236,4 +236,33 @@ opacity: 1;
 }
 
 
-radialGradient ()
+radialGradient () */
+
+/* Styling the parent container */
+.parent {
+  display: flex; /* Use flexbox for flexible layouts */
+  justify-content: center; /* Align child elements horizontally */
+  align-items: center; /* Align child elements vertically */
+  gap: 10px; /* Space between child elements */
+  border: 2px solid #333; /* Border for visualization */
+  padding: 20px; /* Space inside the parent container */
+  background-color: #f0f0f0; /* Background color */
+}
+
+/* Styling the child containers */
+.child {
+  width: 100px; /* Fixed width */
+  height: 100px; /* Fixed height */
+  background-color: #4caf50; /* Background color */
+  color: white; /* Text color */
+  display: flex; /* Center text inside child */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for style */
+}
+.child{
+
+display: flex;
+margin-top: 500px;
+}

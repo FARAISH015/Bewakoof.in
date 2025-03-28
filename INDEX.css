@@ -25,7 +25,8 @@ font-style: normal;
     height: 50px;
      position: fixed; 
 overflow: hidden; 
-
+background-color: #FFFFFF;
+font-size: medium;
 }
 #headpart img {
 border:1px transparent;
