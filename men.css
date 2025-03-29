@@ -1,6 +1,6 @@
 *{
-/* margin: 0%;
-padding: 0%; */
+ margin: 0%;
+padding: 0%; 
 
 }
 #first {
@@ -22,7 +22,8 @@ height: 50PX;
 }
 .container1{
 width: 100%;
-border: 4px solid;
+border: 4px solid black;
+display: flex;
 
 }
 .fill{
@@ -33,7 +34,12 @@ font-size: larger;
 
 #child1{
 width: 30%;
-border: 2px solid;
+border: 2px solid red;
+}
+
+#child{
+  width: 70%;
+  border: 1px solid green;
 }
 
 #categories ul{
