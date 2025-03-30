@@ -24,6 +24,8 @@ height: 50PX;
 width: 100%;
 border: 4px solid black;
 display: flex;
+position: sticky;
+height: 100%; 
 
 }
 .fill{
@@ -33,57 +35,182 @@ font-size: larger;
 } 
 
 #child1{
-width: 30%;
+width: 20%;
 border: 2px solid red;
 }
 
 #child{
-  width: 70%;
+  width: 80%;
   border: 1px solid green;
 }
 
+.fill{
+font-size: 20px;
+color:#b51515ea;
+margin-bottom: 10px;
+display: flex;
+align-items: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#categories{
+    font-family: "Gidole", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: sticky;
+    
+  }
+  
 #categories ul{
 display: grid;
 margin-left:130px;
 font-size:large;
 align-items: center;
 margin-bottom: 0px
-
-
-
 }                                                                                                                         
-
-
 
 #categories li{
 list-style-type: none;
 margin-bottom: 20px;
 display: flex;
-position: sticky;
+
 }
 
  .box1 {
 margin-bottom: 1px;
-margin-left: px;
-} 
+margin-right: 10px;
+   fill: aqua;         } 
   .box2{
     margin-bottom: 10px;
-    margin-right: 5px;
+    margin-right: 10px;
     
         
         }.box3 {
             margin-bottom: 10px;
-            margin-right: 5px;
+            margin-right: 10px;
                   
             }
 .box4 {
-    margin-bottom: 10px;
-    margin-right:10 px;
-             } 
+margin-bottom: 10px;
+margin-right:10px; } 
 
               .box5 {
                 margin-bottom: 10px;
-                margin-right: 10px;  }  
-            
+                margin-right: 10px; }  
+   #op input{
+    margin-right:10px;
+   }
+   .fill1{
+    font-size: 20px;
+color:#b51515ea;
+margin-bottom: 10px;
+display: flex;
+align-items: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-style: normal;
+   }
 
-     /* ============SCOND SECTION START HERE =========*/
+   #fill2{
+    font-size: 20px;
+color:#b51515ea;
+margin-bottom: 10px;
+display: flex;
+align-items: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-style: normal;
+   }
+
+   #fill3{
+    font-size: 20px;
+color:#b51515ea;
+margin-bottom: 10px;
+display: flex;
+align-items: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-style: normal;
+   }
+
+   #fill4{
+    font-size: 20px;
+color:#b51515ea;
+margin-bottom: 10px;
+display: flex;
+align-items: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-style: normal;
+   }
+   #fill5{
+    font-size: 20px;
+color:#b51515ea;
+margin-bottom: 10px;
+display: flex;
+align-items: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-style: normal;
+   }
+
+   #fill6{
+    font-size: 20px;
+color:#b51515ea;
+margin-bottom: 10px;
+display: flex;
+align-items: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-style: normal;
+   }
+
+   #fill7{
+    font-size: 20px;
+color:#b51515ea;
+margin-bottom: 10px;
+display: flex;
+align-items: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-style: normal;
+   }
+    /* ============SCOND SECTION START HERE =========*/
+#men{
+    font-family: "Gidole", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.clothes img{
+  height: 307px;
+  width:300px;
+  margin-top: 30px;
+ display: flex;
+ 
+}
+#font1{
+margin-left: 70px;
+font-size: large;
+color: #292D35;
+}
+#font2{
+ color: #4E5664;
+ margin-left: 50px;
+}
+#font3{
+margin-left: 110px;
+font-weight: 400;
+font-size: large;
+}
+#font4{
+  margin-left: 110px;
+text-decoration: line-through;
+}
+#font5{
+  margin-left: 100px;
+
+}

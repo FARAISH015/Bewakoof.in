@@ -139,13 +139,7 @@ overflow-x: scroll;
 scrollbar-width: none;
 
 }
-#hero-section img{
 
-
-
-
-
-    }
 
 .img1{
 transition: transform 0.2s;  
@@ -288,7 +282,7 @@ font-size: 30px;}
 #hero-section3{
 display:flex;
 gap: 1px;
-column-gap: 100PX;
+column-gap: 210PX;
 transition: 0.4s ease-out;
 /* overflow: hidden;  */
 flex-wrap: wrap;
@@ -338,8 +332,7 @@ padding-right:125px;
 #hero-section4{
     /* background-image: radial-gradient( white,#6667AB,#6667AB ); */
     display:flex;
-    gap: 1px;
-    column-gap: 100PX;
+    column-gap: 210PX; 
     overflow: hidden; 
     flex-wrap: wrap;
 }
