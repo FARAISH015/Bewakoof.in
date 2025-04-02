@@ -24,8 +24,7 @@ height: 50PX;
 width: 100%;
 border: 4px solid black;
 display: flex;
-position: sticky;
-height: 100%; 
+
 
 }
 .fill{
@@ -37,11 +36,17 @@ font-size: larger;
 #child1{
 width: 20%;
 border: 2px solid red;
+position: sticky;
+height: 100%; 
 }
 
 #child{
   width: 80%;
   border: 1px solid green;
+  
+}
+#child img{
+ display:flex; 
 }
 
 .fill{
@@ -185,21 +190,32 @@ align-items: center;
     font-style: normal;
   }
 
+.clothes {
+  display: inline-block;
+  gap: 100px;
+}
+#product img {
+display:inline-block;
+gap: 100px;
+}
+
+
+
 .clothes img{
   height: 307px;
   width:300px;
   margin-top: 30px;
  display: flex;
- 
+
 }
 #font1{
-margin-left: 70px;
+margin-left: 80px;
 font-size: large;
 color: #292D35;
 }
 #font2{
  color: #4E5664;
- margin-left: 50px;
+ margin-left: 40px;
 }
 #font3{
 margin-left: 110px;
@@ -212,5 +228,5 @@ text-decoration: line-through;
 }
 #font5{
   margin-left: 100px;
-
-}
+color: lawngreen;
+} 
