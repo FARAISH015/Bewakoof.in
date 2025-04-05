@@ -6,17 +6,9 @@ scroll-behavior: smooth;
 font-family: "Gidole", sans-serif;
 font-weight: 400;
 font-style: normal;
-
 }
-
-
-#check{
-  display: none;
-}
-
 #headpart{
     width: 100%;
-
     display: flex;
     justify-content: center;
     display: flex;
@@ -25,7 +17,7 @@ font-style: normal;
     height: 50px;
      position: fixed; 
 overflow: hidden; 
-background-color: #FFFFFF;
+ background-color: #FFFFFF; 
 font-size: medium;
 }
 #headpart img {
@@ -34,9 +26,6 @@ border:1px transparent;
 #headpart:hover img{
 border:2px solid rgb(14, 14, 14);
 }
-
-
-
 /* =======================MEN WOMEN MOBILE COVER START HERE ========== */
 #op  ul  {
 display: flex;
@@ -119,7 +108,7 @@ gap: 20px;;
  /* ==================MEN WOMEN LINE START HERE================  */
 #sec1  a {
 display: inline-flex;
-justify-content: space-evenly;
+justify-content:space-evenly;
 align-items: center;
 text-decoration: none;
 gap: 1;
@@ -131,6 +120,7 @@ font-size:17PX;
 margin-top: 50px;
 
 }
+
 /*======================= IMAGES 1 SECTION START HERE==================== */
 #hero-section {
 display:grid;
@@ -281,27 +271,28 @@ font-size: 30px;}
 
 #hero-section3{
 display:flex;
-gap: 1px;
-column-gap: 210PX;
+/* gap: 100px; */
+justify-content: center;
 transition: 0.4s ease-out;
-/* overflow: hidden;  */
-flex-wrap: wrap;
+row-gap: 10px;
+flex-wrap: wrap; 
 
 }
 
 #hero-section3 img{
-width:300px;
-height:300px;
-border-radius: 50px;
+  height:350px;  
+width: 250px;
+
+/* border-radius: 30px; */
+
 }
 
 
 
-
+/* 
 .hero img{
-height: 300px;
-width: 300px;
-border-radius: 40px;
+height: 350px;
+width: 250px; border-radius: 40px;
 }
 
 
@@ -311,7 +302,7 @@ justify-content: center;
 
 gap: 200px;
 padding-right:125px;
-}
+} */
 
  /*==================== SHOP BY Category-WOMEN START HERE========================  */
 .font3{
@@ -320,41 +311,39 @@ padding-right:125px;
    align-content: center;
    font-size: 30px;}
   
-.main-hero{
-
-/* background-image: radial-gradient( #F7CAC9,#6667AB ,white); */
-
-
-
+.main-hero img{
+row-gap: 10px;
 }
 
 
 #hero-section4{
     /* background-image: radial-gradient( white,#6667AB,#6667AB ); */
     display:flex;
-    column-gap: 210PX; 
+    justify-content: center;
+    /* gap: 100px; */
+    row-gap: 10px;
     overflow: hidden; 
     flex-wrap: wrap;
 }
 #hero-section4 img{
-    width:300px;
-    height:300px;
-    border-radius: 50px;
+    width:250px;
+    height:350px;
+    /* border-radius: 30px; */
     }
 
-#hero2{
+/* #hero2{
+
 display: flex;
 justify-content: center;
-gap: 200px;
-padding-right:12px ;
+/* gap: 200px; */
+/* padding-right:12px ; */
 /* background-image: radial-gradient( white,#6667AB,#6667AB ); */
-} 
+/* } 
 #hero2 img{
-    width:300px;
-    height:300px;
-    border-radius: 50px;  
-   
-}
+    width:250px;
+    height:350px;
+    /* border-radius: 50px;   */
+   /* row-gap: 10px; }*/
 
 
 
@@ -526,106 +515,3 @@ display: none;
 
 
 
-
- @media(max-width:430px){
-
-
-#headpart img{
- display: none;   
-}
-
-
-#check:checked~#headpart #op ul{
-
-    display: block;
-
-}
-#check:checked~#headpart  .logo2{
-    display:block;
-}
-#check:checked~#headpart #headpart img{
-display: block;
-}
-#check:checked~#headpart nav #op{
-display: block;
-}
- #check:checked~#headpart  .logo2{
-display: block;
-} 
-
-.bar{
-display: block; 
-position: absolute;
-right: 5%;
-z-index: 999;
-size:100%;
-}
-.line{
-display:none;
-}
-#op ul{
-display:none;
-
-}
-#logo{
-display: none; 
-}
-#logo a{
-    display: none; 
-}
-
-
-.logo2{
-    display: none; 
-}
-#sec1{
-display: none;
-
-}
-
-
-#hero-section3  img{
-     flex-wrap: wrap;
-     gap: 0px;
-     height:70px;
-     width: 70px;
-   
-}
-
-
-#hero-section3 img{
-    border-radius: 20px;
-}
-#hero-section3 img{
-display: flex;
-}
-
-
-
-.hero img{
-/* flex-wrap: wrap; */
-row-gap: 100px;
-height: 100px;
-width: 100px;
-
-}
-.font3{
-    margin-top: 200px;
-}
-#hero-section4{
-    grid-template-columns:repeat(1,1fr); 
-    margin-top: 200px;
- 
-}
-#hero-section img{
-margin-top: 100px;
-}
-
-#hero-section .img1{
-display: grid;
-}
-
-
-
-
- }
