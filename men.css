@@ -19,30 +19,33 @@ margin:100px;
 background-color: #207BB4;
 color: white;
 height: 50PX;
+margin-left: 200PX;
 }
 .container1{
 width: 100%;
-border: 4px solid black;
+/* border: 4px solid black; */
 display: flex;
 
 
 }
 .fill{
-margin-left: 130px; 
-margin-bottom: 20px;
+margin-left: 130px;  
+ 
 font-size: larger;
 } 
 
 #child1{
-width: 20%;
-
+width: 40%;
 position: sticky;
+top: 0%;
 height: 100%; 
+margin-top: 20PX;
+/* border: 1px solid green; */
 }
 
 #child{
-  width: 80%;
-  border: 1px solid green;
+  width: 75%;
+  /* border: 1px solid green; */
   
 }
 #child img{
@@ -52,9 +55,9 @@ height: 100%;
 .fill{
 font-size: 20px;
 color:#b51515ea;
-margin-bottom: 10px;
+ margin-bottom: 10px; 
 display: flex;
-align-items: center;
+ align-items: center; 
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-weight: 400;
   font-style: normal;
@@ -87,7 +90,7 @@ display: flex;
  .box1 {
 margin-bottom: 1px;
 margin-right: 10px;
-   fill: aqua;         } 
+         } 
   .box2{
     margin-bottom: 10px;
     margin-right: 10px;
@@ -193,82 +196,112 @@ align-items: center;
   display: flex;
   gap: 10px;
 }
-.clothes {
-  display: inline-block;
-  gap: 100px;
+#child{
+/* padding: 20px; */
+}
+#child img{
+padding: 1px;
 
 }
+.clothes {
+   display: inline-block; 
+  gap: 100px;
+height: 500px;
+width:400px;
+} 
 #product img {
-display:inline-block;
+ display:inline-block; 
 
 }
 
 
 
 .clothes img{
-  height: fit-content;
-  width:100%;
-  margin-top: 30px;
- display: flex;
- column-gap: 10px;
+  height: 500px;
+  width:400px;
+  margin-top: 30px; 
 }
 
 #font1{
-margin-left: 90px; 
+/* margin-left: 90px;  */
 font-size:x-large;
 color: #292D35;
 }
 #font2{
  color: #4E5664;
- margin-left: 80px;
+ /* margin-left: 80px; */
 }
 #font3{
-margin-left: 150px;
+/* margin-left: 150px; */
 font-weight: 400;
 font-size: large;
 }
 #font4{
-  margin-left: 150px;
+  /* margin-left: 150px; */
 text-decoration: line-through;
 }
 #font5{
-  margin-left: 150px;
+  /* margin-left: 150px; */
 color: lawngreen;
 
 } 
 #abhi1{
-margin-left: 150px;
+/* margin-left: 170px; */
 font-size: x-large;
 
 }
 
 #abhi2{color: #4E5664;
-  margin-left: 130px;}
+  /* margin-left: 150px;*/
+  } 
 
 
-#abhi3{margin-left: 190px;
+ #abhi3{  /* margin-left: 210px; */
   font-weight: 400;
   font-size: large;}
 
 
-#abhi4{  margin-left: 190px;
+ #abhi4{ /* margin-left: 210px; */
   text-decoration: line-through;}
 
-#abhi5{ margin-left: 190px;
+#abhi5{ /* margin-left: 210px; */
   color: lawngreen;}
 
-#clothes1{
- height:500px;
-margin-top: 30px;
+
+
+
+
+
+
+  #child2 img{
+display: flex;
+padding: 2px;
+  }
+#product1{
+display: inline-block;
+
+}
+#parent1{
+  display: flex;
+}
+
+.clothes1{
+ display: inline-block;  
+
+
+}
+#product1 img {
+ display:inline-block; 
+
+}
+
+.clothes1 img{
+height:500px;
+width:400px;
+  margin-top: 30px;
  display: flex;
- column-gap: 10px;
+
 }
 
 
-
-
-
-
-
-
-
+ 
