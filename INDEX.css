@@ -117,7 +117,7 @@ color: black;
 font-size:17PX;
  box-shadow: 10px 10px 15px #EAEAEA(241, 17, 17); 
  text-shadow: 5px 5px 10px rgba(51, 227, 16, 0.604); 
-margin-top: 50px;
+margin-top: 50px; 
 
 }
 
@@ -358,7 +358,7 @@ justify-content: center;
 display: flex;
 justify-content: center;
 gap:20px ;
-background-image: radial-gradient( #b2b2b26f,white,#6667AB );
+ /* background-image: radial-gradient( #b2b2b26f,white,#6667AB );  */
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-weight: 400;
 font-style: normal;
@@ -395,7 +395,7 @@ font-style: normal;
 
 .box1{
         
-    transition: transform 0.2s;  
+    transition: transform 0.1s;  
     }
     .box1:hover{
     transform: scale(1.1);
@@ -403,22 +403,22 @@ font-style: normal;
 
     .box2{
         
-        transition: transform 0.2s;  
+        transition: transform 0.1s;  
         }
         .box2:hover{
         transform: scale(1.1);
         }
         .box3{
         
-            transition: transform 0.2s;  
+            transition: transform 0.1s;  
             }
             .box3:hover{
-            transform: scale(1.1);
+            transform: scale(1.1)
             }
         
             .box4{
         
-                transition: transform 0.2s;  
+                transition: transform 0.1s;  
                 }
                 .box4:hover{
                 transform: scale(1.1);

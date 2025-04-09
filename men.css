@@ -3,17 +3,103 @@
 padding: 0%; 
 
 }
-#first {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  
+#headpart{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  height: 50px;
+   
+overflow: hidden; 
+background-color: #FFFFFF; 
+font-size: medium;
+}
+#headpart img {
+border:1px transparent;
+}
+#headpart:hover img{
+border:2px solid rgb(14, 14, 14);
+}
+/* =======================MEN WOMEN MOBILE COVER START HERE ========== */
+#op  ul  {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+gap: 100px;
+list-style-type: none;
+overflow: hidden; 
+}
+#op ul li a {
+text-decoration: none;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: black;
+gap:100px;
+overflow: hidden; 
+ }
+/* ============LOGIN AND LOGO PART START HERE===============================  */
+#logo{ 
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1px;
+ padding-bottom: 1px;
+  padding-inline: 50px; 
+ padding-right:10px;
+gap:1px;
+overflow: hidden; 
+}
+#logo a {
+gap: 10px;
+text-decoration: none;
+color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+overflow: hidden; 
+}
+
+.search{
+padding-right:100px;
+display: flex;
+height: 30px;
+padding: 2px;
+background-color:#141111;
+transition: transform 0.2s;
+width:300px; 
+gap: 10px;
+overflow: hidden; 
+}
+.search:hover {
+    background-color: #141111; 
+transform: scale(1.1);
+overflow: hidden; 
   }
 
 
+.search input{
+    width:500PX;
+}
+.search i {
+padding-left:100px;
+}
+.line{
+display: flex;
+margin-left: 100px;
+}
+.logo2{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1px;
+
+gap: 20px;
+ 
+}
+/* =============NAV BAR END HERE============  */
+
 .element1{
-  margin-top: 100PX;
-  margin-bottom: 100PX;
+  margin-top: 15PX;
+  margin-bottom: 15PX;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -21,7 +107,7 @@ align-items: center;
 background-color: #207BB4;
 color: white;
 height: 50PX;
-margin-left: 200PX;
+
 }
 .container1{
 width: 100%;
@@ -31,13 +117,13 @@ display: flex;
 
 }
 .fill{
-margin-left: 130px;  
+margin-left: 80px;  
  
 font-size: larger;
 } 
 
 #child1{
-width: 40%;
+width: 20%;
 position: sticky;
 top: 0%;
 height: 100%; 
@@ -46,7 +132,7 @@ margin-top: 20PX;
 }
 
 #child{
-  width: 75%;
+  width: 80%;
   /* border: 1px solid green; */
   
 }
@@ -76,7 +162,7 @@ display: flex;
   
 #categories ul{
 display: grid;
-margin-left:130px;
+margin-left:80px;
 font-size:large;
 align-items: center;
 margin-bottom: 0px
@@ -194,35 +280,50 @@ align-items: center;
     font-weight: 400;
     font-style: normal;
   }
-#parent{
-  display: flex;
-  gap: 10px;
-}
-#child{
-/* padding: 20px; */
-}
-#child img{
-padding: 1px;
-
-}
-.clothes {
-   display: inline-block; 
-  gap: 100px;
-height: 500px;
-width:400px;
-} 
-#product img {
- display:inline-block; 
-
-}
 
 
 
-.clothes img{
-  height: 500px;
-  width:400px;
-  margin-top: 30px; 
-}
+
+
+
+  #child img{
+    display: flex;
+    padding: 2px;
+      }
+    #product{
+    display: inline-block;
+    
+    }
+    #parent{
+      display: flex;
+    }
+    
+    .clothes{
+     display: inline-block;  
+    
+    
+    }
+    #product img {
+     display:inline-block; 
+    
+    }
+    
+    .clothes img{
+    height:500px;
+    width:395px;
+      margin-top: 30px;
+     display: flex;
+    
+    }
+    
+
+
+
+
+
+
+
+
 
 #font1{
 /* margin-left: 90px;  */
@@ -299,7 +400,7 @@ display: inline-block;
 
 .clothes1 img{
 height:500px;
-width:400px;
+width:395px;
   margin-top: 30px;
  display: flex;
 

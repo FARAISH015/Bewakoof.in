@@ -4,6 +4,100 @@
 
 }
 
+#headpart{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  height: 50px;
+   
+overflow: hidden; 
+background-color: #FFFFFF; 
+font-size: medium;
+}
+#headpart img {
+border:1px transparent;
+}
+#headpart:hover img{
+border:2px solid rgb(14, 14, 14);
+}
+/* =======================MEN WOMEN MOBILE COVER START HERE ========== */
+#lo  ul  {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+gap: 100px;
+list-style-type: none;
+overflow: hidden; 
+}
+#lo ul li a {
+text-decoration: none;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: black;
+gap:100px;
+overflow: hidden; 
+ }
+/* ============LOGIN AND LOGO PART START HERE===============================  */
+#logo{ 
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1px;
+ padding-bottom: 1px;
+  padding-inline: 50px; 
+ padding-right:10px;
+gap:1px;
+overflow: hidden; 
+}
+#logo a {
+gap: 10px;
+text-decoration: none;
+color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+overflow: hidden; 
+}
+
+.search{
+padding-right:100px;
+display: flex;
+height: 30px;
+padding: 2px;
+background-color:#141111;
+transition: transform 0.2s;
+width:300px; 
+gap: 10px;
+overflow: hidden; 
+}
+.search:hover {
+    background-color: #141111; 
+transform: scale(1.1);
+overflow: hidden; 
+  }
+
+
+.search input{
+    width:500PX;
+}
+.search i {
+padding-left:100px;
+}
+.line{
+display: flex;
+margin-left: 100px;
+}
+.logo2{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1px;
+
+gap: 20px;
+ 
+}
+/* =============NAV BAR END HERE============  */
+
 #first {
   width: 100%;
   display: flex;
@@ -14,7 +108,7 @@
 #main-img {
   width: 70%;
   margin-left: 30%;
-  margin-top: 10%;
+  margin-top: 3%;
   /* justify-content:left; */
 }
 
